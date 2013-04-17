@@ -19,6 +19,13 @@ Modify `config.ru` like:
     require ::File.expand_path('../config/environment',  __FILE__)
     run YourApp::Application
 
+You might need below to avoid 'stack level too deep' error:
+
+    RubyVM::InstructionSequence.compile_option = {
+      :tailcall_optimization => true,
+      :trace_instruction => false
+    }
+
 ## Contributing
 
 1. Fork it
