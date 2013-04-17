@@ -2,6 +2,8 @@
 
 Rack middleware for profiling.
 
+![screencast](https://raw.github.com/jugyo/rack_prof/master/screencast.gif)
+
 ## Installation
 
     gem 'rack_prof'
