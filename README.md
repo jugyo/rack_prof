@@ -28,6 +28,14 @@ You might need below to avoid 'stack level too deep' error:
       :trace_instruction => false
     }
 
+Access to your application with a parameter 'profile=true' like:
+
+[http://localhost:3000/books?profile=true](http://localhost:3000/books?profile=true)
+
+You can specify printer like:
+
+[http://localhost:3000/books?profile=true&printer=flat](http://localhost:3000/books?profile=true&printer=flat)
+
 ## Contributing
 
 1. Fork it
