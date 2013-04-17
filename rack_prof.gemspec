@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jugyo.org@gmail.com"]
   spec.description   = %q{Rack middleware for profiling}
   spec.summary       = %q{Rack middleware for profiling}
-  spec.homepage      = "https://githug.com/jugyo/rack_prof"
+  spec.homepage      = "https://github.com/jugyo/rack_prof"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/) - ['screencast.gif']
